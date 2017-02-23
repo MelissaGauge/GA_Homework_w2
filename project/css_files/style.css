@@ -1,0 +1,195 @@
+
+/*
+Project Name: Relaxr landing page
+Client: Relaxr
+Author: Melissa Gauge
+Developer @GA in LDN
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+ /*Clear fix hack 
+.clearfix:after {
+ /* content: ".";*/
+	/*display: block;*/
+	/*clear: both;*/
+	/*visibility: hidden;*/
+	/*line-height: 0;*/
+	/*height: 0; }*/
+
+/*.clear {
+  clear: both;
+}*/
+
+
+
+/*BASE STYLES
+
+div{
+	font-family:'Open Sans',sans-serif;
+}
+
+p{
+    line-height: 1.4;
+    padding: 18px;
+    padding-left: 30px;
+    margin:none;
+  }
+   
+
+.container {
+    position: static;
+    height: 700px;
+    width: 780px;
+    top: 50%;
+    left: 50%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*INTRO SECTION*/
+
+.intro {
+	height: 433px;
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+span {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 40px;
+    color: white;
+    /* margin-top: 50%; */
+}
+
+h1{
+	 color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.yellow {
+    background-color: #f9e42e;
+}
+
+button {
+    /* color: #FFFFFF; */
+    font-weight: 700;
+    font-size: 14px;
+    /* text-align: center; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* margin-bottom: 13px; */
+    /* margin-top: 0; */
+    border: 5px;
+    margin-left: 43%;
+    width: 130px;
+    height: 31px;
+  }
+
+/*BENEFITS SECTION*/
+/**********************/
+
+.benefits {
+  background-color:#f0efef;
+  height: 433px;
+}
+
+.hero{
+  font-size:13px
+  color: #121212
+  font-weight: 300;
+  width:50%;
+  font-family:"open sans";
+}
+
+h2{
+    color: #033048;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+ul{
+    /*color: #606161;*/
+    /*font-weight: 300;*/
+    /*font-size: 13px;*/
+    list-style: inline;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 60px;
+    line-height: 1.5;	
+    width:40%;
+}
+
+/****************************************/
+/*QUOTE SECTION*/
+/*************************************/
+
+.quote {
+    background-color: #033048;
+    height: 300px;
+    margin: none;
+    font-color:#FFFFFF;
+}
+
+.italic {
+    font-weight: 300;
+    font: 18px;
+    font-style: italic;
+    width: 30%;
+    margin-left: 35%;
+    /*font-color: #FFFFFF;*/
+    padding-top: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3{
+  margin-left:25%
+  font-color: white;
+}
+
+/****************************************/
+/*BAND SECTION*/
+/*************************************/
+.band {
+    background-color: #f9e42e;
+    height: 75px;
+}
+
+.blue {
+    background-color: #033048;
+    color: #FFFFFF;
+    padding-top: 18px;
+    margin-top: 18px;
+}
+
+/*FOOTER SECTION*/
+footer {
+	background-color:#033048;
+	height: 100px;
+}
+
+.yellowlogo {
+    text-align: center;
+    color: #f9e42e;
+    margin-left: 41%;
+}
